@@ -23,9 +23,14 @@ def badGCD(n, m):
     return((n, rounds))
 
 
-#def GCD(n, m):
-#    """
-#    The classic Euclidean algorithm implemented recursively
-#    Arguments: non-negative integers n and m
-#    Returns: the gcd of n and m and the number of iterations needed
-#    """ 
+def GCD(n, m):
+    """
+    The classic Euclidean algorithm
+    Arguments: non-negative integers n and m s.t. n >= m
+    Returns: the gcd of n and m and the number of iterations needed
+    """
+    rounds = 0
+    while m != 0:
+        n, m = m, m % n
+        rounds += 1
+    return (n, m, rounds)
