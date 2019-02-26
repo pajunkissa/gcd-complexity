@@ -26,11 +26,15 @@ def badGCD(n, m):
 def GCD(n, m):
     """
     The classic Euclidean algorithm
-    Arguments: non-negative integers n and m s.t. n >= m
+    Arguments: non-negative integers n and m
     Returns: the gcd of n and m and the number of iterations needed
     """
+    q = max(n, m)
+    r = min(n, m)
     rounds = 0
-    while m != 0:
-        n, m = m, m % n
+    print (rounds, q, r)
+    while r != 0:
+        q, r = r, q % r
         rounds += 1
-    return (n, m, rounds)
+        print (rounds, q, r)
+    return (q, r, rounds)
