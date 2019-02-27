@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
 
 def badGCD(n, m):
     """
-    A naive and unintuitive algorithm that calculates the greatest common
-    divisor of two numbers. 
+    A naive algorithm that returns the greatest common divisor of two numbers. 
     Arguments: non-negative integers n and m
     Returns: gcd(n, m) and the number of iterations (~ nmber of subtractions
     and comparisons) needed.
@@ -38,3 +32,4 @@ def GCD(n, m):
         rounds += 1
         print (rounds, q, r)
     return (q, r, rounds)
+
