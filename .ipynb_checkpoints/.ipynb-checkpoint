@@ -72,7 +72,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -86,36 +86,41 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 4,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Algoritmi 1: syöte: a = 233, b = 144\n",
+      "             syt: 1, kierroksia: 12 \n",
+      "\n",
+      "Algoritmi 2: syöte: a = 233, b = 144\n",
+      "             syt: 1, kierroksia: 11\n",
+      "Algoritmi 1: syöte: a = 233, b = 233\n",
+      "             syt: 233, kierroksia: 1 \n",
+      "\n",
+      "Algoritmi 2: syöte: a = 233, b = 233\n",
+      "             syt: 233, kierroksia: 1\n",
+      "Algoritmi 1: syöte: a = 233, b = 1\n",
+      "             syt: 1, kierroksia: 233 \n",
+      "\n",
+      "Algoritmi 2: syöte: a = 233, b = 1\n",
+      "             syt: 1, kierroksia: 1\n"
+     ]
+    }
+   ],
    "source": [
     "a = 233\n",
     "b = 144\n",
     "vertailu(a,b)\n",
     "\n",
     "b = 233\n",
-    "vertailu"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 4,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "a = 233\n",
-    "b = 233"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 5,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "a = 233\n",
-    "b = 1"
+    "vertailu(a,b)\n",
+    "\n",
+    "b = 1\n",
+    "vertailu(a,b)"
    ]
   },
   {
@@ -137,7 +142,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -146,7 +151,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 107,
+   "execution_count": 6,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -155,7 +160,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 115,
+   "execution_count": 7,
    "metadata": {},
    "outputs": [
     {
@@ -206,7 +211,9 @@
   {
    "cell_type": "markdown",
    "metadata": {},
-   "source": []
+   "source": [
+    "kaksi plottia! tee funktio!"
+   ]
   }
  ],
  "metadata": {
